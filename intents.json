@@ -1,0 +1,192 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "hi there",
+        "Hello?",
+        "Hi, can you help me?",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello"
+      ],
+      "responses": [
+        "Hi! I'm the MEA chatbot. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "ChangeBooking",
+      "patterns": [
+        "I need to manage my booking",
+        "How can I change my reservation?",
+        "Can I update my booking?",
+        "Modify my flight details",
+        "Manage my booking",
+        "Change my flight",
+        "Edit my booking",
+        "I want to change my travel dates"
+      ],
+      "responses": [
+        "Sure, I can help you manage your booking. Please provide your booking reference number starting with #.",
+        "Let's get your booking updated. May I have your booking reference number starting with #?",
+        "I can assist with that. Please share your booking reference number starting with #."
+      ]
+    },
+    {
+      "tag": "SelectFlight",
+      "patterns": [
+        "date",
+        "day",
+        "january february march april may june july august september october november december",
+        "1 2 3 4 5 6 7 8 9 10"
+      ],
+      "responses": [
+        "I have successfully updated your flight.",
+        "Your flight has been updated!"
+      ]
+    },
+    {
+      "tag": "UpdateFlight",
+      "patterns": [
+        "#NVDGS",
+        "#"
+      ],
+      
+      "responses": [
+        "Please share your new date in the following format DD/MM/YEAR."
+      ]
+    },
+    {
+      "tag": "AddBaggage",
+      "patterns": [
+        "I want to add baggage",
+        "Can I add extra luggage?",
+        "How do I purchase additional baggage?",
+        "Add baggage to my flight",
+        "I need to add checked bags",
+        "Add baggage to my booking",
+        "I need more luggage allowance",
+        "Can I buy more baggage allowance?"
+      ],
+      "responses": [
+        "Adding baggage is easy. Can you please provide your booking reference number?",
+        "Let's add some baggage to your booking. May I have your booking reference?",
+        "Sure, I can help with that. Please share your booking details."
+      ]
+    },
+    {
+      "tag": "CheckBaggageAllowance",
+      "patterns": [
+        "How many bags are included?",
+        "What is my baggage allowance?",
+        "How many checked bags can I bring?",
+        "What's the luggage limit?",
+        "How much baggage is allowed?"
+      ],
+      "responses": [
+        "Your baggage allowance depends on your ticket type and destination. Please provide your booking reference or ticket details for specific information.",
+        "I can check that for you. Can you share your booking reference or ticket details?",
+        "Baggage allowance varies by fare type and route. May I have your booking reference or ticket details to give you accurate information?"
+      ]
+    },
+    {
+      "tag": "CheckFlightStatus",
+      "patterns": [
+        "Check flight status",
+        "What is the status of my flight?",
+        "Is my flight on time?",
+        "Flight status update",
+        "Check my flight status"
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide your flight number or booking reference.",
+        "Let's check the status of your flight. Can you share your flight number or booking reference?",
+        "I can check the flight status for you. Please provide your flight number or booking reference."
+      ]
+    },
+    {
+      "tag": "FileComplaint",
+      "patterns": [
+        "I want to file a complaint",
+        "How do I make a complaint?",
+        "I need to report an issue",
+        "Submit a complaint",
+        "I have a complaint about my recent flight",
+        "Report a problem"
+      ],
+      "responses": [
+        "I'm sorry to hear that you have an issue. Please provide details of your complaint.",
+        "We take complaints seriously. Can you please provide more information about the issue?",
+        "I'd like to help resolve this. Please share the details of your complaint."
+      ]
+    },    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you","merci","great talking to you"
+      ],
+      "responses": [
+        "It was a pleasure talking to you. We can't wait to welcome you abroad!"
+      ]
+    },
+    {
+      "tag": "destination",
+      "patterns": [
+        "[beirut]{country}"
+      ],
+      "responses": [
+        "I am sharing flights to {country} below."
+      ]
+    },
+    {
+      "tag": "BookFlight",
+      "patterns": [
+        "I want to book a flight",
+        "How do I book a flight?",
+        "Book a ticket",
+        "I need to book a flight",
+        "Can I book a flight?",
+        "Flight booking"
+      ],
+      "responses": [
+        "I can help you book a flight. Where would you like to travel?",
+        "Let's get your flight booked. Can you provide the travel destination?",
+        "Sure, I can assist with booking your flight. Where are you planning to go?"
+      ]
+    },
+    {
+      "tag": "CedarMiles",
+      "patterns": [
+        "Tell me about Cedar Miles",
+        "How do I earn Cedar Miles?",
+        "What are Cedar Miles?",
+        "Can I use my Cedar Miles?",
+        "Check my Cedar Miles balance",
+        "I want to know about Cedar Miles"
+      ],
+      "responses": [
+        "Cedar Miles is our frequent flyer program. How can I assist you with it?",
+        "You can earn and use Cedar Miles on our flights. What would you like to know?",
+        "I can help with Cedar Miles information. What do you need assistance with?"
+      ]
+    },
+    {
+      "tag": "OtherQuestions",
+      "patterns": [
+        "What is your contact number?",
+        "How can I contact customer service?",
+        "What is your email address?",
+        "How do I reach customer support?",
+        "What is your phone number?",
+        "Contact information"
+      ],
+      "responses": [
+        "You can reach our customer service at (+961) 1 629999. For email inquiries, contact us at callcenter@mea.com.lb",
+        "Our customer support team is available at (+961) 1 629999. You can also email us at callcenter@mea.com.lb",
+        "For assistance, call us at (+961) 1 629999 or email us at callcenter@mea.com.lb"
+      ]
+    }
+  ]
+}
