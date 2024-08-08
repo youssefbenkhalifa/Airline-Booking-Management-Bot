@@ -26,5 +26,5 @@ The Flight Booking Assistant is an AI-driven application designed to help users 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-repository/flight-booking-assistant.git
-   cd flight-booking-assistant
+   git clone https://github.com/youssefbenkhalifa/Airline-Booking-Management-Bot
+
